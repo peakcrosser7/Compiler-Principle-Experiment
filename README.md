@@ -7,16 +7,16 @@ HUST, CSE, 2020 Compiler Principle Experiment
 Lab1~Lab4对应4次实验
 在Linux环境下使用`make`命令即可编译生成可执行文件`miniC`
 ## 文件说明
-`miniC`为可执行程序(Linux环境)
-`test.c--`文件为测试用源代码, `test.out`为对应输出重定向文件
-`parser.y`为bison语法分析文件
-`lex.l`为flex词法分析文件
-`def.h`为整体的数据结构定义的头文件
-`semantic.h`为语义分析相关函数声明的头文件
-`ast.c`为抽象语法树的构建与输出的代码
-`semanticAnalysis.c`为语义分析相关代码(包括符号表和中间代码生成)
-`semanticCases.c`为语义分析中各种文法符号的case的函数代码
-`expCases.c`为语义分析中表达式相关的case的函数代码
+`miniC`为可执行程序(Linux环境) 
+`test.c--`文件为测试用源代码, `test.out`为对应输出重定向文件 
+`parser.y`为bison语法分析文件 
+`lex.l`为flex词法分析文件 
+`def.h`为整体的数据结构定义的头文件 
+`semantic.h`为语义分析相关函数声明的头文件 
+`ast.c`为抽象语法树的构建与输出的代码 
+`semanticAnalysis.c`为语义分析相关代码(包括符号表和中间代码生成) 
+`semanticCases.c`为语义分析中各种文法符号的case的函数代码 
+`expCases.c`为语义分析中表达式相关的case的函数代码 
 `objCode.c`为目标代码生成的函数代码
 ## MiniC语法规则说明
 ### Lab1
