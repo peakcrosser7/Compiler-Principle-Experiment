@@ -1,0 +1,47 @@
+  变量名  别名   层号   类型  标记  偏移量
+  read             0     int    F      4
+     x             1     int    P     12
+ write             0     int    F      4
+     a     v1      0     int    V      0
+     b     v2      0     int    V      4
+     c     v3      0     int    V      8
+     m     v4      0   float    V     12
+     n     v5      0   float    V     20
+   add     v6      0     int    F      0
+     i     v7      1     int    P     12
+
+  变量名  别名   层号   类型  标记  偏移量
+  read             0     int    F      4
+     x             1     int    P     12
+ write             0     int    F      4
+     a     v1      0     int    V      0
+     b     v2      0     int    V      4
+     c     v3      0     int    V      8
+     m     v4      0   float    V     12
+     n     v5      0   float    V     20
+   add     v6      0     int    F     16
+     i     v7      1     int    P     12
+  main     v8      0     int    F      0
+     m     v9      1     int    V     12
+     n    v10      1     int    V     16
+     i    v11      1     int    V     20
+        temp1      1     int    T     24
+    ch    v12      1    char    V     28
+     f    v13      1   float    V     29
+        temp2      1     int    T     37
+        temp3      1     int    T     37
+        temp4      1     int    T     37
+        temp5      1     int    T     37
+
+  变量名  别名   层号   类型  标记  偏移量
+  read             0     int    F      4
+     x             1     int    P     12
+ write             0     int    F      4
+     a     v1      0     int    V      0
+     b     v2      0     int    V      4
+     c     v3      0     int    V      8
+     m     v4      0   float    V     12
+     n     v5      0   float    V     20
+   add     v6      0     int    F     16
+     i     v7      1     int    P     12
+  main     v8      0     int    F     41

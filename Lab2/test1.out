@@ -1,0 +1,69 @@
+在2行,i 函数形参名重复定义
+在3行, 返回值不能为空
+  变量名  别名   层号   类型  标记  偏移量
+  read             0     int    F      4
+     x             1     int    P     12
+ write             0     int    F      4
+  func     v1      0     int    F      0
+     i     v2      1     int    P     12
+
+在4行, 函数缺少返回值
+在6行,func 函数重复定义
+  变量名  别名   层号   类型  标记  偏移量
+  read             0     int    F      4
+     x             1     int    P     12
+ write             0     int    F      4
+  func     v1      0     int    F     24
+     i     v2      1     int    P     12
+        temp1      1     int    T     12
+
+在11行, 不在循环体内部，不能使用break
+  变量名  别名   层号   类型  标记  偏移量
+  read             0     int    F     16
+     x             1     int    P     12
+ write             0     int    F      4
+  func     v1      0     int    F     24
+     i     v2      1     int    P     12
+ func1     v5      0    void    F      0
+
+在16行,i 变量重复定义
+在19行, 不支持CHAR类型算数计算
+在20行,j 变量未定义
+在20行, 赋值语句类型不匹配
+在21行,inc 函数未定义
+在22行, 赋值语句类型不匹配
+在23行, 赋值语句需要左值
+在26行,j 变量未定义
+在26行, 函数参数类型不匹配
+在27行, 返回值类型错误
+  变量名  别名   层号   类型  标记  偏移量
+  read             0     int    F     16
+     x             1     int    P     12
+ write             0     int    F      4
+  func     v1      0     int    F     24
+     i     v2      1     int    P     12
+ func1     v5      0    void    F     12
+  main     v6      0     int    F      0
+     i     v7      1     int    V     12
+        temp2      1     int    T     16
+     k     v9      1   float    V     24
+     c    v10      1    char    V     32
+        temp3      1     int    T     33
+        temp4      1     int    T     37
+        temp5      1   float    T     33
+        temp6      1     int    T     33
+        temp7      1   float    T     37
+        temp8      1     int    T     33
+        temp9      1     int    T     37
+       temp10      1     int    T     41
+       temp11      1     int    T     33
+
+在28行, 函数缺少返回值
+  变量名  别名   层号   类型  标记  偏移量
+  read             0     int    F     16
+     x             1     int    P     12
+ write             0     int    F      4
+  func     v1      0     int    F     24
+     i     v2      1     int    P     12
+ func1     v5      0    void    F     12
+  main     v6      0     int    F     45

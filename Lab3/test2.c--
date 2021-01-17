@@ -1,0 +1,22 @@
+int fact(int n) {
+    if(n == 1) return n;
+    else return (n * fact(n-1));
+}
+
+int main(){
+    int m, result;
+    m = read();
+
+    while(m <= 1) {
+        m += 2;
+        if(m == 0) break;
+    }
+    if(m > 1) result = fact(m);
+    else {
+        m++;
+        result = !m;
+    }
+
+    write(result);
+    return 0;
+}

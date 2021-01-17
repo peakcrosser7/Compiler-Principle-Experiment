@@ -1,0 +1,40 @@
+int a,b,c;
+float m,n;
+char c1,c2;//增加char类型
+char a[10];//增加数组的定义
+int fibo(int a)
+{/*注释部分自动去掉*/
+	int i;
+	if(a == 1 || a == 2){
+	  return 1;
+        }
+	return fibo(a-1)+fibo(a-2);
+}
+void add(int a,int b)	//增加了void函数类型
+{	
+	int i=a+b;
+	return;		//增加了无返回值return
+}
+int main()//注释部分自动去掉
+{
+	int m,n,i;
+	char c;
+	float ar[20];
+	c='a';
+	i++;
+	i+=1;
+	for(i=0,m=1;i<2;i++){	//增加了for循环
+		m*=5;
+		break;	//增加了break语句
+	}
+	i=-m;
+	add(i,m);
+	--i;//增加了自增和自减
+	m+=i+15;//增加了复合赋值运算
+	while(i <= m){
+		n=fibo(i);
+		i=i+1;
+	}
+	return 1;
+}
+

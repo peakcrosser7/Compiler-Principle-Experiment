@@ -1,0 +1,56 @@
+
+符号表：
+  变量名  别名   层号   类型  标记  偏移量
+  read             0     int    F      4
+     x             1     int    P     12
+ write             0     int    F      4
+  main     v1      0     int    F      0
+     n     v2      1     int    V     12
+        temp1      1     int    T     16
+        temp2      1     int    T     16
+        temp3      1     int    T     16
+        temp4      1     int    T     20
+        temp5      1     int    T     16
+        temp6      1     int    T     16
+        temp7      1     int    T     36
+        temp8      1     int    T     40
+        temp9      1     int    T     16
+       temp10      1     int    T     20
+       temp11      1     int    T     16
+  变量名  别名   层号   类型  标记  偏移量
+  read             0     int    F      4
+     x             1     int    P     12
+ write             0     int    F      4
+  main     v1      0     int    F     44
+
+中间代码：
+
+FUNCTION main :
+  temp1 := CALL read
+  v2 := temp1
+  temp2 := #0
+  IF v2 > temp2 GOTO label4
+  GOTO label5
+LABEL label4 :
+  temp3 := #1
+  ARG temp3
+  CALL  write
+  GOTO label3
+LABEL label5 :
+  temp5 := #0
+  IF v2 < temp5 GOTO label6
+  GOTO label7
+LABEL label6 :
+  temp7 := #1
+  temp6 := #0 - temp7
+  ARG temp6
+  CALL  write
+  GOTO label3
+LABEL label7 :
+  temp9 := #0
+  ARG temp9
+  CALL  write
+LABEL label3 :
+  temp11 := #0
+  RETURN temp11
+LABEL label1 :

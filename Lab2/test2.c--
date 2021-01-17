@@ -1,0 +1,16 @@
+int a,b,c;
+float m,n;
+
+int add(int i) {
+    return i;
+}
+
+int main() {
+    int m, n, i = 1;
+    char ch;
+    float f;
+    m = 10;
+    n = add(i);
+    while(i <= m) i++;
+    return 0;
+}

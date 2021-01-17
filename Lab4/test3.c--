@@ -1,0 +1,29 @@
+int s;
+
+int min(int a, int b){
+    if(a < b) return a;
+    return b;
+}
+
+int main() {
+    int a, b, c = 5;
+    int i = 1;
+    a = read();     // 输入8
+    b = read();     // 输入4
+    b = min(b, c);
+    s = 0;
+    while(i <= a && i < 10){
+        if(i == b) {
+            s += -i;
+            i += 1;
+            continue;
+        }
+        s += i;
+        i++;
+    }
+
+    b = 1 && 0;
+    write(s);   // 输出28
+    write(b);   // 输出0
+    return 0;
+}
