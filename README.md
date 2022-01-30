@@ -1,5 +1,5 @@
 # Compiler Principle Experiment
-HUST, CSE, 2020 Compiler Principle Experiment
+HUST, CSE, IS, 2020 Compiler Principle Experiment
 ## 开发环境
 1. 开发环境: Ubuntu 18.04 (Linux)
 2. 开发语言: C
